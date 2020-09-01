@@ -1,0 +1,231 @@
+.br-hidden {
+	display: block;
+}
+
+/* INTRO */
+
+.section_intro {
+	background-image: url(../assets/m_bg_person.png);
+	height: 1080px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: normal;
+	-ms-flex-align: normal;
+	align-items: normal;
+	padding: 150px 0 0 0;
+}
+
+.intro-figure {
+	display: none;
+}
+
+.intro-title-a {
+	font-size: 50px;
+}
+
+.intro-title-b,
+.intro-title-c {
+	font-size: 75px;
+}
+
+.intro-title-b {
+	letter-spacing: 150px;
+	padding-left: 160px;
+}
+
+.appBtn-wrapper {
+	margin-top: 40px;
+}
+
+.app-btn {
+	width: 150px;
+}
+
+.main-instructor {
+	left: 30px;
+	bottom: 30px;
+}
+
+/* SERVICE */
+
+.service-container {
+	display: block;
+	padding: 100px 0 0 0;
+	height: 1000px;
+}
+
+.service-figure-icon {
+	display: none;
+}
+
+.unique-figure-text {
+	top: 225px;
+}
+
+.swiper-container-appSlide {
+	margin: auto;
+}
+
+.swiper-slide.app p {
+	margin-top: 50px;
+}
+
+/* FEATURE */
+
+.feature-container {
+	padding: 100px 0;
+}
+
+.swiper-container-featureSlide {
+	background-color: transparent;
+}
+
+.feature-swiper-wrapper {
+	width: 580px;
+}
+
+.swiper-wrapper.feature {
+	padding: 0;
+}
+
+.swiper-slide.feature {
+	width: auto;
+}
+
+.slide-title-sub {
+	font-size: 25px;
+	color: #fff;
+	line-height: 35px;
+}
+
+.A-graphs,
+.B-graphs,
+.MP-graphs {
+	margin: 0 20px;
+}
+
+.rectangle {
+	top: 300px;
+	right: 38px;
+	width: 190px;
+	height: 580px;
+}
+
+.compare-text {
+	color: #dbdbdb;
+	border-bottom: dotted 4px #dbdbdb;
+	padding-bottom: 5px;
+}
+
+.compare-text img {
+	-webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg)
+		brightness(102%) contrast(102%);
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(298deg)
+		brightness(102%) contrast(102%);
+}
+
+.compare-quiz-text {
+	width: 430px;
+	top: 394px;
+}
+
+.compare-lecture-text {
+	top: 465px;
+	width: 360px;
+}
+
+.graph-container-bottom {
+	bottom: 123px;
+	width: 520px;
+}
+
+.swiper-pagination {
+	bottom: -70px !important;
+}
+
+.swiper-pagination-bullet {
+	background: #b5b5b5 !important;
+	width: 15px !important;
+	height: 15px !important;
+	margin: 0 10px !important;
+}
+
+.lecture-quiz-wrapper {
+	color: #fff;
+}
+
+.rectangle-image {
+	width: 140px;
+	margin: 0 10px;
+}
+
+.arrow {
+	margin: 140px 0;
+	width: 30px;
+	height: 30px;
+}
+
+.plus {
+	margin: 100px 0;
+	width: 30px;
+	height: 30px;
+}
+
+.lecture-quiz-AB,
+.lecture-quiz-text {
+	font-weight: 100;
+}
+
+.underline-box {
+	display: none;
+}
+
+.compare-rect {
+	margin: 40px auto;
+}
+.mypool-learning {
+	color: #fff;
+	line-height: 50px;
+	font-size: 40px;
+}
+
+.quotation {
+	color: #636363;
+}
+
+/* MERIT */
+
+.reason-wrapper {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	font-size: 25px;
+	padding-top: 50px;
+}
+
+.reason-wrapper .merit {
+	margin: 20px;
+}
+
+/* OUTRO */
+
+.section_outro {
+	height: 50vw;
+}
+
+.outro-container {
+	font-weight: 100;
+	font-size: 25px;
+	line-height: 25px;
+	line-height: 35px;
+}
+
+.outro-container div p:nth-child(2) {
+	font-size: 40px;
+	line-height: 70px;
+}
+.outro-container button img {
+	width: 260px;
+}
